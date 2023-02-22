@@ -1,0 +1,130 @@
+Col Máx: 140|| Col Máx Undlin: 138.
+__________________________________________________________________________________________________________________________||*Comentários*
+
+   //  comentário em JavaScript.                                                                     // Comentário utilizado em JavaScript.
+
+   */
+   comentário em JavaScript.                                                                         // Comentário utilizado em JavaScript.
+   /*
+
+   <!--  comentário em HTML. -->                                                                           // Comentário utilizado em HTML.
+
+   /*  comentário CSS. */                                                                                   // Comentário utilizado em CSS.
+___________________________________________________________________________________________________________||*Personalização de palavras*
+
+ Pre:                                                                                     // Preserva o espaçamento e as quebras de linhas.
+ <pre>                                                                                                
+
+ Quebra de palavras, com hifenização:                                                         &shy;                    // Possui semântica.
+ Quebra de palavras, sem hifenização:                                                         <wbr>                    // Possui semântica.
+ Texto invertido:                 <bdo dir="rtl"> Invertido </bdo> || <bdo dir="ltr"> Normal </bdo>                              // Inutil.
+ Abreviação:                             <abbr title="Grupo de idiotas com um sonho"> FNMGP </abbr>             // Adiciona uma explicação.
+ Marcação colorida:                          <mark style= "background color:red;"> Marcação </mark>      // Cria uma tag de estilo interna.
+ Marcação:                                                                  <mark> Marcação </mark>                    // Possui semântica.
+ Endereço:                                                         <address> Evangélicos </address>                  // Mostra um endereço.
+ Destaque:                                                              <strong> Destaque </strong>                    // Possui semântica.
+ Fonte monoespaçada:                                                    <code> Monoespaçada </code>     // As letras ocupam o mesmo espaço.
+ Letras pequenas:                                                          <small> Pequena </small>                    // Possui semântica.
+ Texto subscrito:                                                          <sub> Sobrescrito </sub>             // Joga o texto para baixo.
+ Texto subrescrito:                                                          <sup> Subscrito </sup>              // Joga o texto para cima.
+ Texto deletado:                                                              <del> Deletado </del>                    // Possui semântica.
+ Texto inserido:                                                              <ins> Inserido </ins>                    // Possui semântica.
+ Ênfase:                                                                          <em> Ênfase </em>                    // Possui semântica.
+ Itálico:                                                                          <i> Itálico </i>                            // Não usar.
+ Negrito:                                                                          <b> Negrito </b>                            // Não usar.
+ Citação:                                                                          <q> Citação </q>                    // Possui semântica.
+
+ </pre>
+____________________________________________________________________________________________________________________________||*Variaveis*
+
+ prompt("&nbsp;  Qual é o seu nome?")                                                                      // Uma janela que faz perguntas.
+ nome = prompt("&nbsp;  Qual é o seu nome?")                                                   // A variavel recebe a informação na prompt.
+ idade = prompt(&nbsp;  Quantos anos você tem, ${nome}?")                                                               // Template string.
+ confirm("&nbsp;  Olá, tudo bem contigo?")                                                                   // Uma janela com duas opções.
+ confirm()
+ alert("&nbsp;  ")
+
+ Number.parseInt(prompt(`Quantos anos você tem, ${nome}?`))                                    // Converte a string para um número inteiro.
+ confirm(´&nbsp; Essa é a sua idade?<br>${idade} anos.´)                                                                // Template string.
+ Number.parseFloat(prompt("  Qual é a sua altura?"))                                              // Converte a string para um número real.
+ confirm(`Você tem mais de 18, ${nome}?`)
+ <img src="https://i.ytimg.com/an_webp/OtK7zdiHkRc/mqdefault_6s.webp?du=3000&sqp=CJ3_-ZwG&rs=AOn4CLD94C6hLZeGkkH2Y8uctSDCMbI9wQ"
+_____________________________________________________________________________________________________________________________||*Símbolos*
+        Tipos:
+  Espaço:                                                                                     &nbsp;                      // Força 1 espaço.
+  Espaço:                                                                                     &ensp;                     // Força 2 espaços.
+  Espaço:                                                                                     &emsp;                     // Força 4 espaços.
+  Linha horizontal:                                                                           <hr>
+
+
+  __________________________________________________________________________________________________||*Maior e menor*
+
+   Menor que:                                &lt;                                                // <
+   Maior que:                                &gt;                                                // >
+   Menor ou igual a:                         &le;                                               // <=
+   Maior ou igual a:                         &ge;                                               // >=
+  _____________________________________________________________________________________________________||*Monetários*
+
+   Libras                                 &pound;            // Reino Unido, Inglaterra, Escócia etc.
+   Iene                                     &yen;                                           // Japão.
+   Euro                                    &euro;         // Alemanha, Italia, Espanha, Portugal etc.
+  ______________________________________________________________________________________________________||*Copyright*
+
+   Copyright:                                                                                  &copy;
+   Marca registrada:                                                                            &reg;
+   Trade mark:                                                                                &trade;
+  _____________________________________________________________________________________________________||*Matemática*
+
+   (porcentagem é multiplicado por 100, permil é multiplicado por 1000.)                     &permil;
+   Soma:                                                                                        &sum;
+   Infinito:                                                                                  &infin;
+   Multiplicação:                                                                             &times;
+   Mais ou menos:                                                                            &plusmn; 
+   Simbolo "mais" dentro de uma circunferéncia:                                               &oplus;
+   Raiz quadrada:                                                                             &radic;
+   Diferente:                                                                                    &ne;
+   "e" matemático:                                                                              &amp;
+  ________________________________________________________________________________________________||*Símbolos gregos*
+
+   Delta maiúsculo:                                                                           &Delta;
+   Delta minúsculo:                                                                           &delta;
+   Lambda:                                                                                   &Lambda;
+   Omega:                                                                                     &omega;
+   Phi:                                                                                         &phi;
+  __________________________________________________________________________________________________________||*Setas*
+
+   obs: se colocar a primeira letra dos comandos em maiúsculo o simbolo será diferente. (ex: &Larr)
+
+   Seta para esquerda:                                                                           &lar;
+   Seta para direita:                                                                           &rarr;
+   Seta para cima:                                                                              &uarr;
+   Seta para baixo:                                                                             &darr;
+   Seta para os dois lados:                                                                     &harr;
+  _________________________________________________________________________________________________________||*Cartas*
+
+   Simbolo de espada:                                                                        &spades;
+   Simbolo de copas:                                                                          &clubs;
+   Coração:                                                                                  &hearts; 
+   Diamante:                                                                                  &diams; 
+__________________________________________________________________________________________________________________________||*Ferramentas*
+
+ Lista de todos os Media Types:                        Ctrl + F    &    Enter                                       //Iana.org media types.
+ Sites para o uso de imagens:                                                                                         // Pexels e Unsplash.
+ Definir Tamanho de imagem:                                                                                                // Ibis Paint X.
+ Otimização de site:                                                                                                                 //SEO.
+ Transformar png em ico:                                                                                                      //favicon.io.
+ Conseguir emojis:                                                                                                           // Emojipedia.
+_____________________________________________________________________________________________________________________________||*Aprender*
+
+ Tipográfia.
+ Python
+____________________________________________________________________________________________________________________________||*Anotações*
+ 
+ //  O tamanho da barra de rolagem é 50 px.
+
+ //  Não tente cubrir os espaços em branco no texto.
+ 
+ //  Segurar Alt + setas para mover um codigo selecionados.
+
+ //  Conversor ogv.
+
