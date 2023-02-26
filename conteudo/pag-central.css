@@ -1,81 +1,61 @@
 @charset "UTF-8";
-
-body { background-color: #1e1e1e; font-family: Arial, Helvetica, sans-serif; }
-mark { background-color: #1e1e1e; }
-
-
-/* menu superior */
-div#mensup {
-  /* cor */  background-color: #050505; color: #f5f5f5; box-shadow: 0em 0em 1em #000000;
-  /* tam */  margin-top: -1em; height: auto; margin-left: -0.5em; margin-right: -0.5em;
-  white-space: nowrap;}
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&display=swap');
 
 
-mark#x { background-image: linear-gradient( 90deg, #a40000 40%,#1e1e1e); }
-mark#js { background-image: linear-gradient( 90deg, #40a400 40%,#1e1e1e); }
-mark#op1, mark#op2, mark#op3, mark#op4, mark#op5, mark#op6 { font-size: 2.5em; margin-left: 1em; }
-
-
-
-mark#op1 { background-color: #d09ad4; } mark#op2 { background-color: #F3F891; } mark#op3 { background-color: #9ED4FA; } mark#op4 { background-color: #FAFAFA; } mark#op5 { background-image: linear-gradient(270deg, #cd6bd4, #f3f980, #7fc7fa, #FAFAFA) } mark#op6 { background-image: linear-gradient(90deg, #3198E2, #6D59C0, #B93590, #E33F5F, #FDD579) }
-h1#ini { margin-top: 2.5em; }
-ins { color: #afafaf; }
-p { white-space: nowrap; }
-a {color: #1e1e1e;}
+:root {
+  --fontean: 'Amatic SC', cursive;
+  --fontecen: 'Cormorant SC', serif;
+}
+* { padding: 0em; margin: 0em; }
+body {
+  background: #1e1e1e url("madrugada-wallpaper.jpg") center center no-repeat fixed;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 
 
 
-ins#titu {
-  margin-left: 05%;
-  text-shadow: 0em 0em 0.125em #ffffff;
-  font-size: 3em;
-  color: #f5f5f5;}
-img#diamante {
-  width: 5em;
-  margin-top: 1em;
-  margin-left: 7.5%;
-  margin-bottom: -0.1125em;}
-
-
-
-div#ops{
-  padding: 1.5em;
-  margin-top: 0.25em;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
-
-
-
-mark#abrir {
+/* cabeçalho */
+header {
+  position: relative;
+  background-image:linear-gradient(90deg, #000000, #121212); 
+  color: #f5f5f5;
   box-shadow: 0em 0em 1em #000000;
-  background-color: #050505;}
-ins#abrir {
-  text-shadow: 0em 0em 0.05em #ffffff;
-  font-style: italic;}
-h1#abrir { margin-left: 2.5em; margin-top: 1em; }
-
-
-
-mark#voltar {
-  border-radius: 0.5em;
-  background-color: #1c1c1c;
-  box-shadow: 0em 0em 0.5em #000000;}
-h1#voltar {
+  height: 6.4em;
+}
+div#img {
+  position: absolute;
+  display: inline-block;
+  height: 2.5em;
+}
+div#txt {
   padding: 0.5em;
-  margin-left: 1em;
-  font-size: 1.5em;}
-ins#voltar, a#voltar { color: #f5f5f5; }
-
-h1 {
-  margin-left: 2.5em ;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 15pt;
-  color: #f5f5f5;}
-
-h2 {
-  margin-left: 2.5em ;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 28pt;}
+  left: 7.5em;
+  position: absolute;
+  display: inline-block;
+  text-indent: 0.25em;
+}
 
 
-a#mar1, ins#mar1 { color: blueviolet;} a#mar2, ins#mar2 { color: rgb(211, 0, 0);} 
+header > div > img { width: 5em; margin: 0.5em 1em; }
+header > div > h1 {
+  text-align: left;
+  font-family: var(--fontecen);
+  font-size: 2.5em;
+  color: #f5f5f5;
+  text-shadow: 0em 0em 0.125em #f5f5f570;
+}
+header > div > p { display: inline; }
+
+
+main {
+  margin: auto;
+  background-color: #1e1e1e;
+  width: 80%;
+}
+main > a.modulo {
+  display: block;
+}
+
