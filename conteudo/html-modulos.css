@@ -20,7 +20,7 @@ header#mensup {
   position: relative;
   background-image: linear-gradient(90deg, #070707 64%, #5e3660 100%);
   margin-bottom: 2em;
-  box-shadow: 0em 0em 1em #2b112dda;
+  box-shadow: 0em 0em 1em #5e3660;
   height: 3.5em;
 }
 header#mensup a {
