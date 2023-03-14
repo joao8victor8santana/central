@@ -4,8 +4,8 @@ divcen.addEventListener("mouseenter", incen)
 divcen.addEventListener("mouseout", outcen)
 
 function incen() {
-  divcen.style.boxShadow = " 0vw 0vw 0.5vw #e1e1e1"
-  divcen.style.background = " radial-gradient( #1f1f1f , #757575 )"
+  divcen.style.boxShadow = " 0vw 0vw 0.5vw #818181"
+  divcen.style.background = " radial-gradient( #0f0f0f 10% , #2e2e2e )"
 }
 
 function outcen() {
