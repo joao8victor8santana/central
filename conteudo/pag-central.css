@@ -115,12 +115,12 @@ main#cptb {
   width: 78vw;
 }
 
+
 div#entret {
   background-attachment: fixed;
-  background-position: center center;
   transition-duration: 1s;
   background-image: url("boa-tarde.jpeg");
-  background-size: 70vw;
+  background-size: 80vw;
   border-radius: 0.5vw;
   box-shadow: inset 0vw 0vw 2.5vw #000000;
   transform: translate("100%");
@@ -130,13 +130,16 @@ div#entret {
   width: 70.5%;
 }
 div#entret > p {
+  width: 30%;
   font-family: var(--fontean);
   font-size: 5vw;
   padding: 1vw;
-  color: #f5f5f5;
+  color: #b171aa;
   left: 1vw;
   top: 1vw;
 }
+div#entret:hover { background-size: 81vw; }
+
 
 div#dispo {
   background-attachment: fixed;
@@ -153,9 +156,8 @@ div#dispo {
   width: 26%;
   left: 98.5%;
 }
-div#dispo:hover { background-image: url("modo-retrato-2.jpeg"); background-size: 20vw; }
-div#entret:hover { background-size: 76vw; }
 div#dispo > p {
+  width: 35%;
   font-family: var(--fontean);
   font-size: 2vw;
   padding: 1vw;
@@ -163,13 +165,15 @@ div#dispo > p {
   left: 1vw;
   top: 1vw;
 }
+div#dispo:hover { background-image: url("modo-retrato-2.jpeg"); background-size: 20vw; }
+
 
 div#insta {
   background-attachment: fixed;
   background-position: center center;
   transition-duration: 0.5s;
   background-image: url("madrugada-wallpaper.jpg");
-  background-size: 21vw;
+  background-size: 22.5vw;
   border-radius: 0.5vw;
   box-shadow: inset 0vw 0vw 2.5vw #000000;
   transform: translate( -100% , 100% );
@@ -188,7 +192,7 @@ div#insta > p {
   left: 1vw;
   top: 1vw;
 }
-div#insta:hover { background-size: 24vw; }
+div#insta:hover { background-size: 32vw; }
 
 
 main > h2 { letter-spacing: 0.5vw; color: #e100005e; font-size: 2.5vw; margin-left: 0.5vw; font-family: var(--fontegot1); }
