@@ -54,8 +54,10 @@ h1 {
   text-align: left;
   font-size: 3.5vw;
   color: var(--cor6);
-}
-article#ex { position: relative; height: 41vw; }
+} a#vol { margin-right: 0.75vw; text-align: center; }
+  a#vol > img { border-radius: 50%; width: 2.75vw; }
+  a#vol > img:hover { box-shadow: inset 0vw 0vw 01vw var(--cor7); }
+  article#ex { position: relative; height: 41vw; }
 
 div#exlo1 { position: absolute; }
 div#exlo2 { position: absolute; transform: translate( -50% , 00% ); left: 49.35%; }
