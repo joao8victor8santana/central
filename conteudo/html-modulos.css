@@ -8,7 +8,6 @@
 
 
 :root {
-
   --cor1: #000000;
   --cor2: #2b1b2b;
   --cor3: #1e1e1e;
@@ -32,18 +31,18 @@ body {
 
 
 
-/* corpo*/
+/* corpo */
 main {
   background-color: #1e1e1ede;
   border-radius: 1vw;
-  box-shadow: inset 0vw 0vw 2.5vw var(--cor2);
-  transform: translate( -50% , -50% );
+  box-shadow: inset 0vw 0vw 2.5vw var(--cor1);
+  transform: translate( -50% , 00% );
   position: absolute;
   padding: 0.5vw;
   margin: auto;
   width: 81.5vw;
   left: 50%;
-  top: 50%;
+  top: 05%;
 }
 h1 {
   letter-spacing: 0.5vw;
@@ -64,14 +63,14 @@ article#inex { position: absolute; transform: translate( -100% , -100% ); top: 9
 
 
 div.ex {
-  background-color: #000000;
+  background-color: var(--cor1);
   border-radius: 0.25vw;
   display: inline-block;
   margin: 0.5vw;
   width: 26.1vw;
 }
 h2 {
-  transition-duration: 0.25s;
+  transition-duration: 0.125s;
   background-image: linear-gradient( 90deg, transparent, var("--cor1") );
   letter-spacing: 0.5vw;
   text-shadow: 0em 0em 0.25em var(--cor6);
@@ -81,7 +80,7 @@ h2 {
   margin: 1vw;
   color: var(--cor7);
 }
-h2:hover { text-shadow: 0vw 0vw 0.75vw var(--cor7); }
+h2:hover { text-shadow: 0vw 0vw 0.5vw var(--cor7); }
 ul {
   background-color: #000000aa;
   border-radius: 0.25vw;
@@ -92,7 +91,7 @@ ul {
 }
 li {
   list-style-position: inside;
-  background-image: linear-gradient( 90deg , transparent , #1e1e1e );
+  background-image: linear-gradient( 90deg , transparent , var(--cor3) );
   border-radius: 0.5vw;
   font-family: var(--fontean);
   box-shadow: inset 0em 0em 1.5em var(--cor1);
@@ -110,9 +109,12 @@ li > a:hover {
 }
 
 
+
+
+/* dentro dos ex */
 article#inex {
   border-radius: 0.25vw;
-  background-color: #000000;
+  background-color: var(--cor1);
   margin: 0.5vw;
   position: absolute;
   height: 17.3vw;
@@ -128,13 +130,13 @@ div#de {
   background-image: url("desafios.jpeg");
   background-size: 32vw;
   border-radius: 0.25vw;
-  box-shadow: inset 0vw 0vw 2.5vw var(--cor1);
-  height: 7.5vw;
-  margin: 0.5vw 0.5vw 1vw 1vw;
+  box-shadow: inset 0vw 0vw 2.5vw var(--cor2);
+  height: 9.45vw;
+  margin: 0.5vw;
   width: 20vw;
 }
 div#de:hover { background-size: 22vw; }
-div#de > p {
+div#de > a > p {
   font-family: var(--fontean);
   text-shadow: 0vw 0vw 0.5vw;
   font-size: 2.5vw;
@@ -154,17 +156,18 @@ div#pro {
   background-image: url("fundo.jpeg");
   background-size: 54vw;
   border-radius: 0.25vw;
-  box-shadow: inset 0vw 0vw 2.5vw var(--cor1);
-  height: 7.5vw;
-  margin: 0.5vw 0.5vw 1vw 0.5vw;
+  box-shadow: inset 0vw 0vw 2.5vw var(--cor2);
+  height: 6.4vw;
+  margin: 0.5vw;
   width: 34vw;
 }
 div#pro:hover { background-position: center left; }
-div#pro > p {
+div#pro > a > p {
   font-family: var(--fontean);
   text-shadow: 0vw 0vw 0.5vw;
   font-size: 2.5vw;
   padding: 0.5vw;
+  height: 100%;
   color: var(--cor6);
   left: 1vw;
   top: 1vw;

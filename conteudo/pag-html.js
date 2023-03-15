@@ -1,7 +1,6 @@
-prolin = document.querySelector("div#pro")
-proare = document.querySelector("article#pro")
-proare.addEventListener("mouseenter", entrarpro)
-proare.addEventListener("mouseout", sairpro)
+prolin = document.querySelector("p#style")
+prolin.addEventListener("mouseenter", entrarpro)
+prolin.addEventListener("mouseout", sairpro)
 
 function entrarpro() { prolin.innerHTML = "<p>Um projeto mucho loko.</p>" }
 
