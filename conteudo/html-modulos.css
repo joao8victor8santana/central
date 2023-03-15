@@ -8,6 +8,7 @@
 
 
 :root {
+  --cor0: #1e1e1ede;
   --cor1: #000000;
   --cor2: #2b1b2b;
   --cor3: #1e1e1e;
@@ -33,7 +34,7 @@ body {
 
 /* corpo */
 main {
-  background-color: #1e1e1ede;
+  background-color: var(--cor0);
   border-radius: 1vw;
   box-shadow: inset 0vw 0vw 2.5vw var(--cor1);
   transform: translate( -50% , 00% );
@@ -46,9 +47,10 @@ main {
 }
 h1 {
   letter-spacing: 0.5vw;
+  border-bottom: 0.1vw solid var(--cor7);
+  padding-left: 1.5vw;
   text-shadow: 0em 0em 0.25em var(--cor6);
   font-family: var(--fontean);
-  margin-left: 1.5vw;
   text-align: left;
   font-size: 3.5vw;
   color: var(--cor6);
