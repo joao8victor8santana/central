@@ -77,8 +77,8 @@ h2 {
   transition-duration: 0.125s;
   background-image: linear-gradient( 90deg, transparent, var("--cor1") );
   letter-spacing: 0.5vw;
-  text-shadow: 0em 0em 0.25em var(--cor6);
-  font-family: var(--fontean);
+  text-shadow: 0em 0em 0.25vw var(--cor6);
+  font-family: var(--fontetitu);
   text-align: left;
   font-size: 1.5vw;
   margin: 1vw;
@@ -98,7 +98,7 @@ li {
   background-image: linear-gradient( 90deg , transparent , var(--cor3) );
   border-radius: 0.5vw;
   font-family: var(--fontean);
-  box-shadow: inset 0em 0em 1.5em var(--cor1);
+  box-shadow: inset 0em 0em 1.5vw var(--cor1);
   text-align: left;
   font-size: 2vw;
   padding: 0.5vw;
@@ -107,7 +107,7 @@ li {
 li::before { margin: 0vw -0.75vw 0vw -2vw; content: "📁"; }
 li > a { transition-duration: 0.125s; text-decoration: none; color: var(--cor6); }
 li > a:hover {
-  text-shadow: 0em 0em 0.25em var(--cor7);
+  text-shadow: 0em 0em 0.25vw var(--cor7);
   color: var(--cor7);
 } a > sup { font-size: 01vw; }
 
