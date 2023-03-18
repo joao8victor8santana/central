@@ -114,6 +114,8 @@ li > a:hover {
 
 
 
+
+
 /* dentro dos ex */
 article#inex {
   border-radius: 0.25vw;
@@ -125,8 +127,10 @@ article#inex {
   width: 53.3vw;
 }
 
+
+
 article#de { display: inline-block; }
-div#de {
+  div#de {
   background-attachment: fixed;
   background-position: center center;
   transition-duration: 0.5s;
@@ -137,9 +141,9 @@ div#de {
   height: 9.45vw;
   margin: 0.5vw;
   width: 20vw;
-}
-div#de:hover { background-size: 22vw; }
-div#de > a > p {
+} div#de:hover { background-size: 22vw; }
+  div#de > a {  height: 100%; display: block; }
+  div#de > a > p {
   font-family: var(--fontetitu);
   text-shadow: 0vw 0vw 0.5vw;
   font-size: 2.5vw;
@@ -148,11 +152,14 @@ div#de > a > p {
   color: var(--cor6);
   left: 1vw;
   top: 1vw;
-}
+} p#scripton { display: none; }
+  div#de:hover > a > p#scripton { display: inline-block; }
+  div#de:hover > a > p#scriptoff { display: none; }
+
 
 
 article#pro { display: inline-block; }
-div#pro {
+  div#pro {
   background-attachment: fixed;
   background-position: center center;
   transition-duration: 1.5s;
@@ -163,15 +170,17 @@ div#pro {
   height: 6.4vw;
   margin: 0.5vw;
   width: 34vw;
-}
-div#pro:hover { background-position: center left; }
-div#pro > a > p {
+} div#pro:hover { background-position: center left; }
+  div#pro > a {  height: 100%; display: block; }
+  div#pro > a > p {
   font-family: var(--fontetitu);
   text-shadow: 0vw 0vw 0.5vw;
   font-size: 2.5vw;
   padding: 0.5vw;
-  height: 100%;
+  height: 85%;
   color: var(--cor6);
   left: 1vw;
   top: 1vw;
-}
+} p#styleon { display: none; }
+  div#pro:hover > a > p#styleon { display: inline-block; }
+  div#pro:hover > a > p#styleoff { display: none; }
