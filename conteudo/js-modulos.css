@@ -20,7 +20,7 @@
 
 
 
-  --fontean: 'Amatic SC', cursive;
+  --fontetitu: 'Amatic SC', cursive;
   --fontecut: "One two thirty-four", sans-serif;
 }
 * { padding: 0em; margin: 0em; } a { text-decoration: none; }
@@ -52,7 +52,7 @@ main {
   border-bottom: 0.1vw solid var(--cor7);
   padding-left: 1.5vw;
   text-shadow: 0em 0em 0.25em var(--cor6);
-  font-family: var(--fontean);
+  font-family: var(--fontetitu);
   text-align: left;
   font-size: 3.5vw;
   color: var(--cor6);
@@ -77,17 +77,17 @@ div.ex {
   display: inline-block;
   margin: 0.5vw;
   width: 26.1vw;
-} h2 {
+} h2, h2 > a {
   transition-duration: 0.125s;
   background-image: linear-gradient( 90deg, transparent, var("--cor1") );
   letter-spacing: 0.5vw;
   text-shadow: 0em 0em 0.25em var(--cor6);
-  font-family: var(--fontean);
+  font-family: var(--fontetitu);
   text-align: left;
   font-size: 1.5vw;
   margin: 1vw;
   color: var(--cor7);
-} h2:hover { text-shadow: 0vw 0vw 0.5vw var(--cor7); }
+} h2 > a:hover { text-decoration: underline; text-shadow: 0vw 0vw 0.5vw var(--cor7); }
   ul {
   background-color: #000000aa;
   border-radius: 0.25vw;
@@ -99,7 +99,7 @@ div.ex {
   list-style-position: inside;
   background-image: linear-gradient( 90deg , transparent , var(--cor3) );
   border-radius: 0.5vw;
-  font-family: var(--fontean);
+  font-family: var(--fontetitu);
   box-shadow: inset 0em 0em 1.5em var(--cor1);
   text-align: left;
   font-size: 2vw;
@@ -143,7 +143,7 @@ div#de {
 }
 div#de:hover { background-size: 22vw; }
 div#de > a > p {
-  font-family: var(--fontean);
+  font-family: var(--fontetitu);
   text-shadow: 0vw 0vw 0.5vw;
   font-size: 2.5vw;
   padding: 0.5vw;
@@ -169,7 +169,7 @@ div#pro {
 }
 div#pro:hover { background-position: center left; }
 div#pro > a > p {
-  font-family: var(--fontean);
+  font-family: var(--fontetitu);
   text-shadow: 0vw 0vw 0.5vw;
   font-size: 2.5vw;
   padding: 0.5vw;
