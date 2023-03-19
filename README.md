@@ -1,5 +1,5 @@
 # central
-Curso de HTML5 e CSS3 do CursoemVideo
+Local de armazenamento de dados de cursos feitos por mim, Lero Perih.
 
 Estou aprendendo a criar sites e agora vou gereciar meus repositórios!
 
