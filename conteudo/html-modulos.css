@@ -118,12 +118,12 @@ li > a:hover {
 
 /* dentro dos ex */
 article#inex {
-  border-radius: 0.25vw;
   background-color: var(--cor1);
-  margin: 0.5vw;
+  border-radius: 0.25vw;
   position: absolute;
-  height: 17.3vw;
   display: inline-block;
+  height: 17.3vw;
+  margin: 0.5vw;
   width: 53.3vw;
 }
 
