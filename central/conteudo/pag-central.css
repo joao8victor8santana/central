@@ -226,11 +226,13 @@ main > a.modulo {
   font-weight: bold;
   font-family: var(--fontean);
   box-shadow: 0em 0em 0.2em var(--cor7);
-  text-indent: 1vw;
   font-size: 2vw;
   padding: 0.5em;
   display: block;
   margin: 0.5em 0em;
   width: 10em;
   color: var(--cor7);
-}
+} main >  a.est::before { content: "🔍"; }
+  main > a.curs::before { content: "🍄"; } /* 🔍💡🍄📗📕📙📘🎨🗒️📌💻🖥️*/
+  main > a.outr::before { content: "🗂️"; }
+  
