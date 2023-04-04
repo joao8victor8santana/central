@@ -30,13 +30,13 @@
 
 
 
-  --fundo: url("madrugada-wallpaper.jpg");
+  --header: url("pexels-photo-9176068.jpeg");
+  --fundo: url("fundo.jpeg");
 
 
 
   --fontegenos: 'Genos', sans-serif;
   --fontegot1: "Pillbox Opaque", serif;
-  --fontegot2: "Lotharus", serif;
   --fontecen: 'Cormorant SC', serif;
   --anfonte: "Angel", sans-serif;
   --fontean: 'Amatic SC', cursive;
@@ -55,13 +55,14 @@ body {
 
 /* cabeçalho */
 header {
-  background-image: linear-gradient( 90deg , var(--cor1) , var(--cor2) );
-  box-shadow: 0em 0em 1vw var(--cor8);
+  background-image: linear-gradient( 172.5deg, #000000 25%, #063484 75.5%, #410000 77.5%, #001449 78.5%, #c60000 80%, #000000 );
+  box-shadow: inset 0em 0em 5em var(--cor2);
   position: relative;
+  opacity: 95%;
   height: 10vw;
   color: var(--cor7);
-}
-div#img {
+} div#img {
+  background-image: linear-gradient( 100deg, #000000 20%, transparent 90% );
   position: absolute;
   padding: 1vw;
   display: inline-block;
@@ -69,6 +70,7 @@ div#img {
   width: 7.5vw;
 } div#brilho {
   transition-duration: 0.25s;
+  box-shadow: inset 0em 0em 1em var(--cor1);
   transform: translate( 50% , 50% );
   position: absolute;
   height: 5.9vw;
@@ -108,6 +110,7 @@ div#txt {
   padding: 1vw 1vw 1vw 2.5vw;
   display: inline;
   width: 45vw;
+  color: linear-gradient( 90deg, #000000 , #c60000 );
 } div#txt > h1:hover { text-shadow: 0em 0em 0.25em var(--cor7) }
   div#txt > p:hover { text-shadow: 0em 0em 0.5em var(--cor7) }
 
@@ -117,15 +120,15 @@ div#txt {
 
 
 /* corpo de anuncios */
-main#cptb {
+section#cptb {
   transition-duration: 0.5s;
-  border-radius: 0vw;
   background: var(--cor1);
+  box-shadow: inset 0em 5em 3.5em -3.5em var(--cor1);
   position: relative;
-  padding: 1vw;
+  padding: 1em;
   height: 24vw;
   margin: 0vw auto 0vw auto;
-  width: 78vw;
+  width: min( 64em , 100% );
 }
 
 
@@ -133,7 +136,7 @@ main#cptb {
 div#entret {
   background-attachment: fixed;
   transition-duration: 1s;
-  background-image: url("boa-tarde.jpeg");
+  background-image: url("pexels-francesco-ungaro-1671325.jpg");
   background-size: 80vw;
   border-radius: 0.5vw;
   box-shadow: inset 0vw 0vw 2.5vw var(--cor1);
@@ -176,7 +179,7 @@ div#dispo {
   color: var(--cor5);
   left: 1vw;
   top: 1vw;
-}  div#dispo:hover { background-image: url("modo-retrato-2.jpeg"); background-size: 20vw; }
+}  div#dispo:hover { background-size: 20vw; }
 
 
 
@@ -214,9 +217,9 @@ main {
   background-color: var(--cor0);
   border-radius: 0vw 0vw 1.25vw 1.25vw;
   box-shadow: inset 0vw 0vw 5vw var(--cor1);
-  padding: 2.5vw 2.5vw 1vw 2.5vw;
+  padding: 1em;
   margin: 0vw auto 2.5vw auto;
-  width: 75vw;
+  width: min( 64em , 100% );
 }
 main > h2 { letter-spacing: 0.5vw; color: var(--cor4); font-size: 2.5vw; margin-left: 0.5vw; font-family: var(--fontegot1); }
 main > a.modulo {
